@@ -24,7 +24,7 @@ In this assignment you will filter earthquakes by their depth, finding those ear
 </p><p>
 Specifically, for this assignment, you will add new methods to one class, the EarthQuakeClient class:
 </p><ul><li>
-</li><li>Write the method filterByDepth that has three parameters, an ArrayList of type QuakeEntry named quakeData, a double named minDepth and a double named maxDepth. This method should return an ArrayList of type QuakeEntry of all the earthquakes from quakeData whose depth is between minDepth and maxDepth, exclusive. (Do not include quakes with depth exactly minDepth or maxDepth.)
+Write the method filterByDepth that has three parameters, an ArrayList of type QuakeEntry named quakeData, a double named minDepth and a double named maxDepth. This method should return an ArrayList of type QuakeEntry of all the earthquakes from quakeData whose depth is between minDepth and maxDepth, exclusive. (Do not include quakes with depth exactly minDepth or maxDepth.)
 </li><li>Write the void method quakesOfDepth that has no parameters to use filterByDepth and print all the earthquakes from a data source whose depth is between a given minimum and maximum value. You should also print out the number of earthquakes found. 
 </li></ul>
 <h3>Assignment 3: Filtering by Phrase in Title</h3>
@@ -33,7 +33,7 @@ In this assignment you will filter earthquakes by a phrase in the title given fo
 </p><p>
 Specifically, for this assignment, you will add new methods to one class, the EarthQuakeClient class:
 </p><ul><li>
-</li><li>Write the method filterByPhrase that has three parameters, an ArrayList of type QuakeEntry named quakeData, a String named where that indicates where to search in the title and has one of three values: (“start”, ”end”, or “any”), and a String named phrase, indicating the phrase to search for in the title of the earthquake. The title of the earthquake can be obtained through the getInfo() method. The filterByPhrase method should return an ArrayList of type QuakeEntry of all the earthquakes from quakeData whose titles have the given phrase found at location where (“start” means the phrase must start the title, “end” means the phrase must end the title and “any” means the phrase is a substring anywhere in the title.)
+Write the method filterByPhrase that has three parameters, an ArrayList of type QuakeEntry named quakeData, a String named where that indicates where to search in the title and has one of three values: (“start”, ”end”, or “any”), and a String named phrase, indicating the phrase to search for in the title of the earthquake. The title of the earthquake can be obtained through the getInfo() method. The filterByPhrase method should return an ArrayList of type QuakeEntry of all the earthquakes from quakeData whose titles have the given phrase found at location where (“start” means the phrase must start the title, “end” means the phrase must end the title and “any” means the phrase is a substring anywhere in the title.)
 </li><li>Write the void method quakesByPhrase to use filterByPhrase and print all the earthquakes from a data source that have phrase in their title in a given position in the title. You should also print out the number of earthquakes found. 
 </li></ul>
 <h3>Assignment 4: Finding the Closest Earthquakes to a Location</h3>
